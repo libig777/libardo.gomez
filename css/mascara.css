@@ -1,0 +1,20 @@
+#divMask {
+    width: 280px;
+    height: 280px;
+    /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg) center center;*/
+  /*background-size: cover;*/
+  background-color: #aa0000;
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+  clip-path:  url(#maskRect);/*polygon(50% 5%, 0% 100%, 100% 100%);*/
+}
+/*div:hover {
+  clip-path: polygon(50% 19%, 0 76%, 100% 76%);
+}*/
+
+/* Center the demo */
+/*html, body { height: 100%; }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

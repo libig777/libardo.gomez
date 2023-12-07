@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="no"?>
+<svg:svg height="0">
+    <svg:clipPath id="c1" clipPathUnits="objectBoundingBox">
+       <svg:rect x="0.5" y="0.2" width="0.5" height="0.8"/>
+    </svg:clipPath>
+  </svg:svg>

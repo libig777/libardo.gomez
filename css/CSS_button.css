@@ -1,0 +1,39 @@
+.btn-group {
+    margin: 30px;
+}
+
+.btn-group button {
+    background-color: rgb(68, 160, 71);
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /*Float the buttons side by side */
+    /*     display:flex;  */
+    /*     justify-content:space-between;  */
+    /*     align-items:center; */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    color: #99b69a;
+    background-color: #38753a;
+}

@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+}
+
+a {
+    color: #fb0077;
+    /* This is a single-line comment */
+    font-family: "Arial", Helvetica, sans-serif;
+	font-size: 1em;
+	/* Quitar raya a los links
+	text-decoration: none;*/
+} 
+
+a:link {
+     color: #fb0077;
+}
+
+a:hover, a:active {
+	color: #af3d7b;
+	font-size: 105%;
+}
+
+a:visited {
+	color:  #af3d7b;
+}
+
+.center {
+	/*position: static;*/
+    margin: auto;
+    width: 70%;
+    border: 3px solid #1b3b44;
+    padding: 2px;
+    background: #66868f;
+}
+
+#fondoPieDePagina{
+	background: #254747;
+}
+
+h1 {
+    color: brown;
+    /* This is a single-line comment */
+    text-align: center;
+    text-shadow: 3px 2px #363646;
+    font-size: 4em;
+}
+
+h2 {
+    color: #bf00bf;
+    /* This is a single-line comment */
+    /*text-align: center;
+    text-shadow: 3px 2px #363646;*/
+    font-size: 2em;
+} 
+
+h3 {
+    color: #c0ad27;
+    font-size: 1.8em;
+} 
+
+
+   .textoResaltado´{
+   		color: #9c8308; /*8b610a;*/
+   }
+
+.parrafoNormal {
+	color: #2f2150; /*hsla(50%, 50%, 100%, 10);*/
+	text-align: left;
+	/*text-align: justify;*/
+	text-indent: 30px;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	word-spacing: 10px;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 1em;
+	/*text-shadow: 3px 2px red;*/
+}
+
+
+
+.pieDePagina {
+	color: rgba(250,200, 50, 0.4);
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 1;
+	word-spacing: 5px;
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 0,7em;
+	text-shadow: 3px 2px #3f4639;
+}
+
+.centrarImagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.divSeccion{
+    border-radius: 25px; /* Redondear bordes */
+    background-color: #77bcc4; /*#a49557;  Green background */
+    border: 1px solid #807444; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    /*cursor: pointer; /* Pointer/hand icon */
+    /*float: left; /* Float the buttons side by side */
+}
+.prueba{
+	background-color: #166198; /* Green background */
+	background-color: #8f6336; /* Green background */
+	background-color: #fe8001; /* Green background */
+	background-color: #2f2f4d; /* Green background #af4e23*/ 
+	
+}
+
+span {
+	/*color: #fb0077;*/
+}
+/* This is
+a multi-line
+comment */

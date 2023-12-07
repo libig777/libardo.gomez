@@ -1,0 +1,47 @@
+.desplazarIzquierda {
+	border-radius: 25px; /* Redondear bordes */
+	padding: 3px 24px; /* Some padding */
+	 border: 1px solid #59b300; /* Green border */
+    width: 25%;
+    height: 20%;
+    background-color: #418b70;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+    animation-name: haciaIzquierda; /*example;*/
+    /*animation-iteration-count: infinite;*/
+    animation-iteration-count: 2;
+    animation-duration: 8s;
+    animation-direction: reverse;    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:#39933c; left:0px; top:0px;}
+    25%  {background-color:#687a63; left:200px; top:0px;}
+    50%  {background-color:#39933c; left:200px; top:200px;}
+    75%  {background-color:#ad661f; left:0px; top:200px;}
+    100% {background-color:#ba9812; left:0px; top:0px;}
+}
+
+@keyframes haciaIzquierda {
+    0%   {background-color:#418b70; left:0px; top:0px;}
+    50%  {background-color:#72098c; left:200px; top:0px;}
+    100%  {background-color:#418b70; left:0px; top:0px;}
+    
+}
+
+.prueba{
+	background-color: #36a796;
+	background-color: #36a796;
+}

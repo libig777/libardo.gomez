@@ -1,0 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap'); */
+.word {
+    margin: auto;
+    /* color: #fd915c; */
+    color: #fd915c;
+    font: normal 1.2em 'chilanka';
+    /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
+    text-shadow: 3px 1px #97522f, 1px 3px #97522f, 1px 3px #97522f;
+  }
