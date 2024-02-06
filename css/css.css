@@ -194,10 +194,11 @@ a:visited {
 }
 
 .contenedorAsignaturas.parrafoInformatica {
-	color: #9cc6ee;
+	/* color: #9cc6ee; */
+	color: #f6b682;
 	font-size: 2em;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	text-shadow: 3px 2px #4c9160;
+	text-shadow: 3px 2px #f99d52;
 	border: 3px solid #fdd430;
 }
 
