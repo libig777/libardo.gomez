@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Artefactos de ayer y hoy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 50px;
+      background-color: #cecdcd;
+      text-align: center;
+      color:rgb(168, 242, 211)
+    }
+    h1
+    {
+
+    }
+
+    select {
+      padding: 10px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .container {
+      background-color: #eb348f;
+      padding: 30px;
+      border-radius: 8px;
+      display: inline-block;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Programación con Angry Birds</h2>
+    <select id="pageSelect">
+      <option value="" disabled selected>--Escoge el grado --</option>
+      <option value="https://studio.code.org/sections/QSFXTC">Grado 2-1</option>
+      <option value="https://studio.code.org/sections/ZBHYMZ">Grado 2-2</option>
+      <option value="https://studio.code.org/sections/YMZJKH">Grado 2-3</option>
+      <option value="https://studio.code.org/sections/KNLWKG">Grado 2-4</option>
+      <option value="https://studio.code.org/sections/NTWKYZ">Grado 2-5</option>
+    </select>
+    <button onclick="goToPage()">Ir</button>
+  </div>
+
+  <script>
+    function goToPage() {
+      const select = document.getElementById('pageSelect');
+      const url = select.value;
+      if (url) {
+        window.location.href = url;
+      } else {
+        alert("Selecciona primero una opción.");
+      }
+    }
+  </script>
+</body>
+</html>
